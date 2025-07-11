@@ -25,14 +25,30 @@ header img{
 main{
     background-color: white;
     width: 320px;
-    height: 820px; /* 820px pra todo o conteúdo */
+    height: auto; /* 820px pra todo o conteúdo */
     margin: auto;
+    padding: 20px;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
+    font-size: 1em;
 }
-section{
-    border: 2px solid black;
+main h1, h2{
+    font-size: 2.2em;
+}
+main p{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+/* SECTIONS */
+section#tempo_preparo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    line-height: 2em;
 }
 
 
