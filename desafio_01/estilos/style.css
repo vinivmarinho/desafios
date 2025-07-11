@@ -6,7 +6,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body, html{
+body{
+    background-color: gray;
     width: 100vw;
     height: 100vh;
 }
@@ -14,6 +15,7 @@ body, html{
 /* HEADER */
 header{
     text-align: center;
+    height: 146.39px; /* Altura da img (o main fica colado na imagem) */
 }
 header img{
     width: 320px;
@@ -21,7 +23,7 @@ header img{
 
 /* MAIN */
 main{
-    background-color: gray;
+    background-color: white;
     width: 320px;
     height: 100vh;
     margin: auto;
