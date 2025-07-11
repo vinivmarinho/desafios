@@ -34,7 +34,7 @@ main{
     font-size: 1em;
 }
 main h1, h2{
-    font-size: 2.2em;
+    font-size: 2em;
 }
 main p{
     font-size: 1em;
@@ -43,13 +43,36 @@ main p{
 }
 
 /* SECTIONS */
-section#tempo_preparo {
+section{
+    /* Só pra dividir as seções por enquanto */
+    
+    padding: 10px;
+}
+section#tempo_preparo { /* Section 01 */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end; /* Posição dos itens em relação ao cross-axis */
     text-align: justify;
     line-height: 2em;
+    border: 2px solid black;
 }
+section#tempo_preparo h2{
+    color: #7b284f;
+    font-size: 1.2em;
+    align-self: flex-start; /* Posição do H2 na flexbox */
+}
+
+section#ingredientes{ /* Seção 02 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Posição dos itens em relação ao cross-axis */
+    text-align: justify;
+    line-height: 1.4em; 
+}
+section#ingredientes ul{
+    align-self: center;
+}
+
 
 
 

@@ -11,7 +11,7 @@ The designs were created to the following widths:
 
 ## Colors
 
-- White: hsl(0, 0%, 100%)
+- White: #ffffffff
 
 - Stone 100: hsl(30, 54%, 90%)
 - Stone 150: hsl(30, 18%, 87%)
