@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* Versão Mobile First */
+/* Globais */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* HEADER */
+header{
+    text-align: center;
+}
+
+/* MAIN */
+main{
+    background-color: gray;
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
