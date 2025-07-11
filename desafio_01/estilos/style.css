@@ -45,16 +45,14 @@ main p{
 /* SECTIONS */
 section{
     /* Só pra dividir as seções por enquanto */
-    
-    padding: 10px;
 }
 section#tempo_preparo { /* Section 01 */
     display: flex;
     flex-direction: column;
     align-items: flex-end; /* Posição dos itens em relação ao cross-axis */
     text-align: justify;
-    line-height: 2em;
-    border: 2px solid black;
+    line-height: 2em;   
+    background-color: rgb(255, 245, 250);
 }
 section#tempo_preparo h2{
     color: #7b284f;
@@ -65,12 +63,21 @@ section#tempo_preparo h2{
 section#ingredientes{ /* Seção 02 */
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Posição dos itens em relação ao cross-axis */
     text-align: justify;
-    line-height: 1.4em; 
+    line-height: 2em;
+    align-self: flex-end;
+
 }
-section#ingredientes ul{
-    align-self: center;
+section#ingredientes h2{
+    color: #854632;
+    font-size: 1.8em;
+    align-self: flex-start;
+}
+section#ingredientes ul{ /* Ul dentro da seção ingredientes */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    padding-left: 30px; 
 }
 
 
