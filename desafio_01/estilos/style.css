@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Versão Mobile First */
+/* Versão Mobile First  (min-width: 320px)*/
 /* Globais */
 *{
     margin: 0px;
@@ -15,11 +15,14 @@ body, html{
 header{
     text-align: center;
 }
+header img{
+    width: 320px;
+}
 
 /* MAIN */
 main{
     background-color: gray;
-    width: 400px;
+    width: 320px;
     height: 100vh;
     margin: auto;
     text-align: center;
