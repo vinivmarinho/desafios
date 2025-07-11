@@ -8,14 +8,14 @@
 }
 body{
     background-color: gray;
-    width: 100vw;
-    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
 header{
     text-align: center;
     height: 146.39px; /* Altura da img (o main fica colado na imagem) */
+
 }
 header img{
     width: 320px;
@@ -25,8 +25,15 @@ header img{
 main{
     background-color: white;
     width: 320px;
-    height: 100vh;
+    height: 820px; /* 820px pra todo o conteúdo */
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+section{
+    border: 2px solid black;
+}
+
+
 
