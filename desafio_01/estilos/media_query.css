@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* Mínimo 600px */
+@media screen and (min-width: 600px) and (max-width: 900px){
+    body{
+        background-color:  hsla(332, 51%, 44%, 0.411)
+    }
+}
