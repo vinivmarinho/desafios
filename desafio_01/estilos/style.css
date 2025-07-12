@@ -62,6 +62,7 @@ section#tempo_preparo h2{ /* H2 da seção 01 */
     font-size: 1.2em ;
     align-self: flex-start;/* Posição do H2 na flexbox */
     padding-left: 35px;
+    margin-bottom: 10px;
 }
 
 section#ingredientes{ /* Seção 02 */
@@ -76,6 +77,7 @@ section#ingredientes h2{ /* H2 da seção 02 */
     color: #854632;
     font-size: 1.8em;
     align-self: flex-start;
+    margin-bottom: 10px;
 }
 section#ingredientes ul{ /* Ul dentro da seção 02 */
     padding-left: 30px; 
@@ -93,13 +95,33 @@ section#instrucoes h2{ /* Título da seção 03 */
     color: #854632;
     font-size: 1.8em;
     align-self: flex-start;
+    margin-bottom: 10px;
 }
 section#instrucoes ol{ /* Ol da seção 03 */
     padding-left: 20px;
 }
 
 section#nutricao{ /* Seção 04 */
-    
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: justify;
+    line-height: 2em;
+    align-self: flex-end;
+}
+section#nutricao h2{
+    color: #854632;
+    font-size: 1.8em;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+section#nutricao ul{
+    column-count: 2;
+    list-style-type: none;
+    padding-left: 20px;
+    gap: 20px;
+}
+section#nutricao li{
+    background-color: blue;
 }
 
 
