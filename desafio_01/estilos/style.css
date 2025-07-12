@@ -46,41 +46,62 @@ main p{
 section{
     /* Só pra dividir as seções por enquanto */
     background-color: rgb(255, 245, 250);
+    margin: 10px;
 }
 section#tempo_preparo { /* Seção 01 */
-    display: flex;
-    flex-direction: column;
+    display: flex;  
+    flex-flow: column nowrap;
     align-items: flex-end; /* Posição dos itens em relação ao cross-axis */
     text-align: justify;
     line-height: 2em;   
+    background-color: rgba(6, 238, 6, 0.253); /* Só pra entender que essa seção está certa */
     
 }
 section#tempo_preparo h2{ /* H2 da seção 01 */
     color: #7b284f;
-    font-size: 1.2em;
-    align-self: flex-start; /* Posição do H2 na flexbox */
+    font-size: 1.2em ;
+    align-self: flex-start;/* Posição do H2 na flexbox */
     padding-left: 35px;
 }
 
 section#ingredientes{ /* Seção 02 */
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     text-align: justify;
     line-height: 2em;
-    align-self: flex-end;
-
+    align-self: flex-end; 
+    background-color: rgba(6, 238, 6, 0.253); /* Só pra entender que essa seção está certa */
 }
 section#ingredientes h2{ /* H2 da seção 02 */
     color: #854632;
     font-size: 1.8em;
     align-self: flex-start;
 }
-section#ingredientes ul{ /* Ul dentro da seção ingredientes */
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: flex-start;
+section#ingredientes ul{ /* Ul dentro da seção 02 */
     padding-left: 30px; 
 }
+
+section#instrucoes{ /* Seção 03 */
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: justify;
+    line-height: 2em;
+    align-self: flex-end;
+    background-color: rgba(6, 238, 6, 0.253); /* Só pra entender que essa seção está certa */
+}
+section#instrucoes h2{ /* Título da seção 03 */
+    color: #854632;
+    font-size: 1.8em;
+    align-self: flex-start;
+}
+section#instrucoes ol{ /* Ol da seção 03 */
+    padding-left: 20px;
+}
+
+section#nutricao{ /* Seção 04 */
+    
+}
+
 
 
 
