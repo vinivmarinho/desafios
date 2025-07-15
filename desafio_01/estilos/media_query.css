@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Mínimo 600px */
-@media screen and (min-width: 600px) and (max-width: 1200px){
+@media screen and (min-width: 600px){
     body{
         background-color: #F3E5D8;
     }
