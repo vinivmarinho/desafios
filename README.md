@@ -14,6 +14,10 @@ desafios/
 │   ├── images/
 │   └── guide/
 ├── desafio_02/
+    └── assets
+    └── estilos
+    └── index.html
+
 ```
 
 Cada pasta dentro deste repositório representa um desafio específico. Dentro de cada pasta, você encontrará os arquivos necessários para rodar o projeto localmente.
