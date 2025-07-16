@@ -8,6 +8,7 @@
 }
 body{
     /* Centralizando o main com flexbox */
+    background-color: #141414;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -15,7 +16,19 @@ body{
 }
 /* MAIN */
 main.container{
-    background-color: gray;
+    background-color: #1F1F1F;
     width: 90vw;
-    height: 200px;
+    height: 600px;
+    border-radius: 20px ;
+}
+main.container > div.imagem{
+    margin-top: 30px; /* Afastando a div da borda de cima */
+}
+main.container img{ /* Configurações da imagem */
+    border-radius: 70%;
+    width: 100px;
+    height: 100px;
+    /* Centralizando a imagem */
+    display: block;
+    margin: auto;
 }
