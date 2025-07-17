@@ -95,6 +95,10 @@ div.rede_social{
 a{ /* Links da div */
     text-decoration: none;
     color: inherit; /* Herda a cor do elemento pai */
+    /* Fazendo o link preencher toda a div */
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 div.rede_social:hover{ 
     background-color: #C4F82A;
