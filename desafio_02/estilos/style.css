@@ -25,7 +25,7 @@ body{
 main.container{
     background-color: #1f1f1f;
     width: 90vw;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
 }
 main.container > div.imagem{
@@ -83,11 +83,21 @@ div.rede_social{
     justify-content: center;
     align-items: center;
     /* Outros estilos */
-    color: white;
     background-color: #333333;
     padding: 10px;
     margin: 10px;
+}
+a{ /* Links da div */
+    text-decoration: none;
+    color: white;
     font-size: 1.2em;
     border-radius: 5px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295);
+}
+div.rede_social:hover{
+    background-color: #C4F82A;
+    cursor: pointer;
+}
+div.rede_social:hover a{ /* Hover para o a ficar preto */
+    color: black;  
 }
